@@ -1,6 +1,7 @@
 :root{
     --principal: #47cfac;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -60,6 +61,7 @@ nav{
     justify-content: flex-end;
     margin-right: 50px;
     font-weight: 700;
+    
 }
 .profile-link a{
     color: black;
@@ -72,13 +74,14 @@ nav{
 .cover{
     width: 100vw;
     height: 100vh;
-    background: url('../assets/img/Cover.png');
+    background-image: url('../assets/img/Cover.png');
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     position: relative;
 }
 .hero-title{
-    width: 1000px;
+    width: 50%;
     right: 0;
     left: 0;
     bottom: 0;
@@ -93,13 +96,18 @@ nav{
     color: white;
     font-size: 3rem;
     letter-spacing: 15px;
+    font-family: 'Roboto Mono', monospace;
 }
 .hero-title button{
     color: black;
-    font-weight: 700;
+    
     margin-top: 200px;
     padding: 30px 50px;
     background-color: var(--principal);
     border: 1px solid black;
+    
+}
+.hero-title a{
+    font-weight: 700;
     font-size: 25px;
 }

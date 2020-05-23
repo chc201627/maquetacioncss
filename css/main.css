@@ -143,6 +143,7 @@ nav{
 }
 .blogs-posts-container{
     padding: 0 50px 40px;
+    text-align: center;
 }
 .blogs-posts-container h3{
     border-bottom: 1px solid #cdd2da;

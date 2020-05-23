@@ -1,6 +1,7 @@
 :root{
     --principal: #47cfac;
     --hero_color: #e6e9ed;
+    --separator: #cdd2da;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500&display=swap');
 body{
@@ -188,3 +189,60 @@ footer p {
     color: white;
     margin-top: 30px;
 }
+/* BlogPost */
+
+.blogpost-img-container{
+    padding: 0 50px 40px;
+}
+.blogpost-img-container img{
+    width: 100%;
+}
+.blogpost-main-conainer {
+    padding: 0 50px 40px;
+}
+.blogpost-main-container h3{
+border-bottom: 1px solid var(--separator);
+padding-bottom: 20px;
+}
+.blogpost-main-container article h1{
+    font-size: 2.2rem;
+}
+.contact-main-container{
+    margin-top: 100px;
+    height: 400px;
+    background-color: var(--hero_color);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.contact-main-container img{
+
+    width: 120px;
+}
+.contact-main-container>div {
+    padding-left: 15px;
+    display: grid;
+    grid-template-columns: 120px 300px;
+    grid-template-rows: 2fr;
+    column-gap: 5px;
+}
+.contact-main-container{
+    font-weight: 700;
+}
+.contact-left a{
+    display: inline-block;
+    padding-bottom: 8px;
+    border-bottom: 1px solid;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.contact-right a{
+    display: inline-block;
+    padding-bottom: 8px;
+    border-bottom: 1px solid;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+
